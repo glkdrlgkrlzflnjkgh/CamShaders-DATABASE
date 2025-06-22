@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 def process(frame):
-    ascii_chars = " .:-=+*#%@"
+    ascii_chars = "/.:-=+*#%@"
     char_len = len(ascii_chars)
     font_scale = 0.4
     block_size = 8
