@@ -9,7 +9,7 @@ def process(frame):
     edges = cv2.threshold(edges, 50, 255, cv2.THRESH_BINARY_INV)[1]
 
     # Posterize (quantize) colors
-    div = 64  # smaller = more contrasty blocks
+    div = 128  # smaller = more contrasty blocks
     quant = frame // div * div + div // 2
 
     # Combine edges with posterized color
