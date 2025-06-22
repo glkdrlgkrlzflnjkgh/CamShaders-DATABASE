@@ -11,7 +11,7 @@ def process(frame):
 
     # Adjust these for wave strength and frequency
     amplitude = 2
-    frequency = 0.1
+    frequency = 0.01
 
     for y in range(rows):
         offset_x = int(amplitude * np.sin(2 * np.pi * frequency * y + t))
