@@ -10,7 +10,7 @@ def process(frame):
     wave = np.zeros_like(frame)
 
     # Adjust these for wave strength and frequency
-    amplitude = 300
+    amplitude = 2
     frequency = 0.1
 
     for y in range(rows):
