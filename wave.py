@@ -6,7 +6,7 @@ start_time = time.time()
 
 def process(frame):
     rows, cols, _ = frame.shape
-    t = time.time() - start_time
+    t = time.time() - start_time * 20
     wave = np.zeros_like(frame)
 
     # Adjust these for wave strength and frequency
