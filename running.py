@@ -1,7 +1,7 @@
-import cv2
-import numpy as np
-import random
-import time
+import cv2 # lib
+import numpy as np # lib2
+import random # lib3
+import time # lib4
 
 start_time = time.time()
 
