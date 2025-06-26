@@ -3,7 +3,7 @@ import numpy as np
 import random
 
 def process(frame):
-    h, w = frame.shape[:2]
+    h, w = frame.shape[:2] # the width and hight of the frame
 
     # Horizontal slice shifting
     for _ in range(10):
