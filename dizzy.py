@@ -4,7 +4,7 @@ def process(frame):
     h, w, _ = frame.shape
 
     # Create a random grid of blocks
-    block_size = 40
+    block_size = 4
     num_blocks_x = w // block_size
     num_blocks_y = h // block_size
 
